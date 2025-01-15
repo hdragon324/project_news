@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 def create_sidebar():
     '''사이드바 생성'''
     with st.sidebar:
-        choose = option_menu("Project", ["Home", "News", "Stock Market"],
+        choose = option_menu("Project", ["Home", "News", "U.S. Stock"],
                             icons=['house', 'newspaper', 'kanban'],
                             menu_icon="diagram-3", default_index=0,
                             styles={
@@ -33,14 +33,14 @@ def create_sidebar():
                                 }
                                 )
 
-        if choose == "Stock Market":
+        if choose == "U.S. Stock":
             st.session_state.show_news_buttons = True
         else:
             st.session_state.show_news_buttons = False
         # 하위 버튼 추가
         if st.session_state.get("show_news_buttons", False):
             with st.sidebar:
-                sub_choose = option_menu("Stock Market", ["S&P 500", "NASDAQ", "Dow Jones"],
+                sub_choose = option_menu("U.S. Stock", ["S&P 500", "NASDAQ", "Dow Jones"],
                                     icons=['bookmark-fill', 'bookmark-fill', 'bookmark-fill'],
                                     menu_icon="kanban", default_index=0,
                                     styles={
