@@ -16,7 +16,13 @@
 
 ### 실행화면
 ![image](https://github.com/user-attachments/assets/b5e638a3-40be-44ee-b6da-a7bbc11a9265)
+
+[News] 네이버 뉴스 데이터를 기반으로 생성된 워드 클라우드 이미지를 제공합니다. 또한, 언급량이 가장 높은 5가지 키워드와 관련 기사를 제공합니다.
+
 ![image](https://github.com/user-attachments/assets/b4b3d48d-4b3a-428b-a5c0-877b683bacb5)
+
+
+[U.S. Stock] 미국 증시 지수 나스닥, 다우 산업, S&P 500의 수치 데이터를 시각화한 그래프가 제공됩니다.
 
 
 
