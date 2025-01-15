@@ -84,7 +84,7 @@ pip install streamlit-option-menu
 - utils
 - BeautifulSoup, Requests (크롤링)
 - gensim, wordcloud (LDA 및 워드클라우드)
-- matplotlib, plotly, matplotlib (데이터 시각화)
+- matplotlib, plotly(데이터 시각화)
 
 
 ### 유의 사항
