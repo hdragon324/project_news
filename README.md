@@ -42,15 +42,37 @@ pip install streamlit-option-menu
 
 ### 코드 구조 설명
 
-├── crawler/               # 크롤링 코드
-│   ├── news_crawler.py    # 네이버 뉴스 크롤링
-│   ├── stock_crawler.py   # 네이버 증권 크롤링
-├── analysis/              # 데이터 분석 코드
-│   ├── lda_modeling.py    # LDA 모델링 및 워드클라우드 생성
-│   └── visualization.py   # 그래프 시각화 코드
-├── app.py                 # Streamlit 메인 파일
-├── requirements.txt       # 필요한 Python 라이브러리 목록
+├── steampages/            # 사이드 바 주요 메뉴의 페이지
+
+│   ├── home.py            # 메인 홈
+
+│   ├── news.py            # 뉴스
+
+│   ├── stock_market.py    # 해외 증시
+
+├── utils/                 # 기능 모음 파일
+
+│   ├── crawl.py           # 뉴스 및 주식 크롤링
+
+│   ├── dict.py            # 불용어 사전
+
+│   ├── graph.py           # 주식 그래프
+
+│   ├── sidebar.py         # 사이드바 생성
+
+│   ├── visualize.py       # 워드 클라우드 기반 뉴스 출력
+
+│   ├── wordcloud.py       # 워드 클라우드 생성
+
 └── README.md              # 프로젝트 설명서
+
+└── import.ipynb           # 설치 모듈 및 라이브러리 모음
+
+└── main.py                # 메인 실행 파일
+
+└── financial_crawl.json   # 실시간으로 주식 크롤링 후 json파일로 저장
+└── summary_crawl_bs.json  # 실시간으로 뉴스 크롤링 후 json파일로 저장
+└── SeSAC_icon.png         # 이미지 파일
 
 ### 기술 스택 (사용된 언어 및 라이브러리)
 - Python
