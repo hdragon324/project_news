@@ -71,7 +71,9 @@ pip install streamlit-option-menu
 └── main.py                # 메인 실행 파일
 
 └── financial_crawl.json   # 실시간으로 주식 크롤링 후 json파일로 저장
+
 └── summary_crawl_bs.json  # 실시간으로 뉴스 크롤링 후 json파일로 저장
+
 └── SeSAC_icon.png         # 이미지 파일
 
 ### 기술 스택 (사용된 언어 및 라이브러리)
