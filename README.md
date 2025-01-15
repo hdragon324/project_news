@@ -21,13 +21,21 @@
 ***import.ipynb 먼저 실행***
 
 pip install streamlit
+
 pip install pandas
+
 pip install beautifulsoup4
+
 pip install wordcloud
+
 pip install requests
+
 pip install json
+
 pip install matplotlib
+
 pip install gensim
+
 pip install streamlit-option-menu
 
 터미널 창에 streamlit run main.py 입력
