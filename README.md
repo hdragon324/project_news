@@ -15,6 +15,7 @@
 - Streamlit 기반의 웹 애플리케이션으로 데이터 제공
 
 ### 실행화면
+![image](https://github.com/user-attachments/assets/b5e638a3-40be-44ee-b6da-a7bbc11a9265)
 
 
 ### 설치 및 실행 방법
