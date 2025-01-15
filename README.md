@@ -16,6 +16,8 @@
 
 ### 실행화면
 ![image](https://github.com/user-attachments/assets/b5e638a3-40be-44ee-b6da-a7bbc11a9265)
+![image](https://github.com/user-attachments/assets/b4b3d48d-4b3a-428b-a5c0-877b683bacb5)
+
 
 
 ### 설치 및 실행 방법
