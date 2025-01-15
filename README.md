@@ -76,4 +76,4 @@ pip install streamlit-option-menu
 
 ### 개발자 소개
 
-허용 박수빈 이현승 조서형
+박수빈 이현승 조서형 허용
